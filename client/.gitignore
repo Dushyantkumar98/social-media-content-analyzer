@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build directories
+dist/
+dist-ssr/
+
+# Local environment files
+.env
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Uploads folder (if storing uploaded files locally)
+uploads/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Optional: lock files you don't want
+package-lock.json
+yarn.lock
